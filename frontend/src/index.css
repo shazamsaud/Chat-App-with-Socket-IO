@@ -3,9 +3,11 @@
 @tailwind utilities;
 
 body {
-	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/bg.png");
+	background:  url("/bg-dark.jpg");
+	/* background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/bg.png"); */
 	background-repeat: no-repeat;
 	background-size: cover;
+	height: 100%;
 	background-position: center;
 }
 
